@@ -14,7 +14,7 @@ docker secret create mongodb secret_example.txt
 
 ## Deploy
 
-To deploy the stack using Swarm, just follow the command bellow:
+To deploy the stack using Swarm, just follow the command below:
 
 ```shell
 docker stack deploy --compose-file docker-compose.yml mongodb
